@@ -34,5 +34,5 @@ if (mysqli_num_rows($result) > 0) {
 	echo "0 results";
 }
 mysqli_close($conn);?>
-<br><a href="home.php"><img src="images/back.png"></a><a href="happy.php"><img src="images/refresh.png"></a>
+<br><a href="index.html"><img src="images/back.png"></a><a href="happy.php"><img src="images/refresh.png"></a>
 </center>
