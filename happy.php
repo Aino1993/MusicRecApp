@@ -4,10 +4,10 @@
  <link rel="stylesheet" href="css/style.css">
   <script src="js/bootstrap.min.js"></script>
  </head><center><h1><?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "music_app";
+$servername = "127.0.0.1:49356";
+$username = "azure";
+$password = "6#vWHD_$";
+$dbname = "localdb";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -26,7 +26,7 @@ if (mysqli_num_rows($result) > 0) {
   
 ?>
 </h1>
- <iframe width="300" height="225" src="<?php echo  $row["ytlink"] ?>">
+ <iframe width="560" height="340" src="<?php echo  $row["ytlink"] ?>">
 </iframe> 
 <?php
     }
